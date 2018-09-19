@@ -5,10 +5,10 @@ module.exports = {
       bucket: 'doculet3',
       assetPath: 'dist',
       deployPath: '/',
-      pwa: true,
+      pwa: false,
       pwaFiles: 'service-worker.js',
-      enableCloudfront: false,
-      cloudfrontId: 'AIXXXXXXXX',
+      enableCloudfront: true,
+      cloudfrontId: 'E32QXMDDP95RZX',
       cloudfrontMatchers: '/index.html,/styles/*.css,/*.png',
       uploadConcurrency: 5
     }
